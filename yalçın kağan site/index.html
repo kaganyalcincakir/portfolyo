@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kağan | Kişisel Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.svg" alt="Kağan Logo">
+            <h1>Kağan</h1>
+        </div>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+     <nav id="navbar">
+    <a href="#about">Hakkımda</a>
+    <a href="#education">Eğitim</a>
+    <a href="#timeline">Yolculuk</a>
+    <a href="#skills">Yeteneklerim</a>
+    <a href="#projects">Projelerim</a>
+    <a href="#testimonials">Yorumlar</a>
+    <a href="#faq">SSS</a>
+    <a href="#contact">İletişim</a>
+</nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="logo.svg" alt="Kağan Logo">
+
+            <p class="hero-badge">Bilgisayar Mühendisliği Öğrencisi</p>
+
+            <h2>Merhaba, ben <span>Kağan</span></h2>
+
+            <p>
+                HTML, CSS, JavaScript ve PHP ile modern, responsive ve kullanıcı dostu web siteleri geliştiriyorum.
+            </p>
+
+            <div class="hero-buttons">
+                <button onclick="goToProjects()">Projelerimi Gör</button>
+                <a href="#contact">İletişime Geç</a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <strong>10+</strong>
+                    <small>Teknoloji + Yapay Zeka</small>
+                </div>
+
+                <div>
+                    <strong>5+</strong>
+                    <small>Web Sitesi Projesi</small>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <small>Öğrenme İsteği</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="about reveal" id="about">
+            <div class="about-container">
+                <div class="about-text">
+                    <p class="section-label">Hakkımda</p>
+
+                    <h2>Web geliştirme yolunda kendimi sürekli geliştiriyorum.</h2>
+
+                    <p>
+                        Merhaba, ben Kağan. Bilgisayar mühendisliği öğrencisiyim.
+                        HTML, CSS, JavaScript ve PHP ile web projeleri geliştiriyorum.
+                    </p>
+
+                    <p>
+                        Amacım modern, hızlı, responsive ve kullanıcı dostu web siteleri yapmak.
+                    </p>
+                </div>
+
+                <div class="about-info">
+                    <div>
+                        <strong>Alan</strong>
+                        <span>Web Geliştirme</span>
+                    </div>
+
+                    <div>
+                        <strong>Odak</strong>
+                        <span>Frontend + Backend</span>
+                    </div>
+
+                    <div>
+                        <strong>Hedef</strong>
+                        <span>Full-Stack Developer</span>
+                    </div>
+
+                    <div>
+                        <strong>Durum</strong>
+                        <span>Öğrenmeye devam</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education reveal" id="education">
+    <h2>Eğitim ve Sertifikalar</h2>
+
+    <div class="education-container">
+
+        <div class="education-card">
+            <span class="education-year">2026</span>
+            <h3>Bilgisayar Mühendisliği</h3>
+            <p>
+                Yazılım geliştirme, algoritmalar, web teknolojileri ve temel mühendislik
+                konularında kendimi geliştiriyorum.
+            </p>
+        </div>
+
+        <div class="education-card">
+            <span class="education-year">HTML & CSS</span>
+            <h3>Web Geliştirme Temelleri</h3>
+            <p>
+                HTML semantik etiketleri, CSS tasarım mantığı, responsive yapı ve modern
+                arayüz geliştirme üzerine çalışmalar yaptım.
+            </p>
+        </div>
+
+        <div class="education-card">
+            <span class="education-year">JavaScript</span>
+            <h3>Frontend Etkileşimleri</h3>
+            <p>
+                DOM işlemleri, buton olayları, form kontrolleri, animasyonlar ve sayfa içi
+                etkileşimler üzerine pratik projeler geliştiriyorum.
+            </p>
+        </div>
+
+    </div>
+</section>
+<section class="timeline reveal" id="timeline">
+    <h2>Öğrenme Yolculuğum</h2>
+
+    <div class="timeline-container">
+
+        <div class="timeline-item">
+            <span>1</span>
+            <div>
+                <h3>HTML ile Başlangıç</h3>
+                <p>Web sayfalarının temel yapısını, semantik etiketleri ve sayfa düzenini öğrendim.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <span>2</span>
+            <div>
+                <h3>CSS ile Tasarım</h3>
+                <p>Renkler, boşluklar, responsive tasarım, Flexbox ve modern arayüz mantığını geliştirdim.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <span>3</span>
+            <div>
+                <h3>JavaScript ile Etkileşim</h3>
+                <p>Buton işlemleri, form kontrolü, modal pencere ve sayfa animasyonları eklemeye başladım.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <span>4</span>
+            <div>
+                <h3>PHP ve Backend</h3>
+                <p>Form verilerini işleme ve temel backend mantığını öğrenerek full-stack hedefime ilerliyorum.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section class="skills reveal" id="skills">
+            <h2>Yeteneklerim</h2>
+
+            <div class="skill-container">
+                <div class="skill-card">
+                    <div class="skill-icon">HTML</div>
+                    <h3>HTML</h3>
+                    <p>Semantik etiketlerle düzenli sayfa yapıları oluşturuyorum.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">CSS</div>
+                    <h3>CSS</h3>
+                    <p>Responsive ve modern arayüz tasarımları yapıyorum.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Sayfalara etkileşim ve dinamik özellikler ekliyorum.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">PHP</div>
+                    <h3>PHP</h3>
+                    <p>Form işlemleri ve temel backend mantığı üzerine çalışıyorum.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects reveal" id="projects">
+            <h2>Projelerim</h2>
+
+            <div class="project-container">
+                <div class="project-card">
+                    <div class="project-image portfolio-image">WEB</div>
+                    <h3>Kişisel Portföy Sitesi</h3>
+                    <p>HTML, CSS ve JavaScript ile hazırlanmış responsive portföy sitesi.</p>
+                    <button onclick="openProject('portfolio')">Detayları Gör</button>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image form-image">FORM</div>
+                    <h3>Giriş / Kayıt Formu</h3>
+                    <p>Modern ve mobil uyumlu kullanıcı giriş formu tasarımı.</p>
+                    <button onclick="openProject('form')">Detayları Gör</button>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image php-image">PHP</div>
+                    <h3>PHP İletişim Formu</h3>
+                    <p>Kullanıcı mesajlarını alan basit backend iletişim sistemi.</p>
+                    <button onclick="openProject('php')">Detayları Gör</button>
+                </div>
+            </div>
+        </section>
+        <section class="testimonials reveal" id="testimonials">
+    <h2>Yorumlar</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <p>
+                “Yalçın Kağan öğrenmeye açık, düzenli çalışan ve web geliştirme konusunda kendini sürekli geliştiren biri.”
+            </p>
+            <h3>Mentor Yorumu</h3>
+            <span>Web Geliştirme</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p>
+                “Projelerinde temiz tasarım, responsive yapı ve kullanıcı deneyimine önem veriyor.”
+            </p>
+            <h3>Proje Değerlendirmesi</h3>
+            <span>Frontend</span>
+        </div>
+
+        <div class="testimonial-card">
+            <p>
+                “HTML, CSS ve JavaScript temellerini gerçek projelerle pekiştirmeye odaklanıyor.”
+            </p>
+            <h3>Gelişim Notu</h3>
+            <span>Portföy</span>
+        </div>
+
+    </div>
+</section>
+
+<section class="faq reveal" id="faq">
+    <h2>Sık Sorulan Sorular</h2>
+
+    <div class="faq-container">
+
+        <details>
+            <summary>Hangi teknolojileri kullanıyorum?</summary>
+            <p>HTML, CSS, JavaScript ve PHP ile web projeleri geliştiriyorum.</p>
+        </details>
+
+        <details>
+            <summary>Responsive tasarım yapıyor muyum?</summary>
+            <p>Evet. Sitelerin telefon, tablet ve bilgisayarda düzgün görünmesine dikkat ediyorum.</p>
+        </details>
+
+        <details>
+            <summary>Ne tür projeler geliştiriyorum?</summary>
+            <p>Kişisel web sitesi, portföy sitesi, form tasarımları ve temel backend projeleri geliştiriyorum.</p>
+        </details>
+
+        <details>
+            <summary>Hedefim ne?</summary>
+            <p>Frontend ve backend tarafında kendimi geliştirerek full-stack developer olmak.</p>
+        </details>
+
+    </div>
+</section>
+
+        <section class="contact reveal" id="contact">
+            <h2>İletişim</h2>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div>
+                        <strong>E-posta</strong>
+                        <span>kaganyalcincakir@hotmail.com</span>
+                    </div>
+
+                    <div>
+                        <strong>Konum</strong>
+                        <span>Türkiye</span>
+                    </div>
+
+                    <div>
+    <strong>Sosyal</strong>
+    <span>
+        <a style="color: rgb(255, 255, 255);" href="https://github.com/kaganyalcincakir" target="_blank">GitHub</a> |
+        <a style="color: rgb(255, 255, 255);" href="https://www.linkedin.com/in/yalçın-kağan-çakir-0799793b6" target="_blank">LinkedIn</a> |
+        <a style="color: rgb(250, 250, 250);" href="https://www.instagram.com/ykagancakrr" target="_blank">Instagram</a>
+    </span>
+</div>
+                </div>
+
+                <form id="contact-form">
+                    <input type="text" placeholder="Adınız" required>
+                    <input type="email" placeholder="E-posta Adresiniz" required>
+                    <textarea placeholder="Mesajınızı yazın..." rows="6" required></textarea>
+                    <button type="submit">Gönder</button>
+                    <p id="success-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Kağan</h3>
+        <p>Bilgisayar mühendisliği öğrencisi | Web geliştirici adayı</p>
+
+        <div class="social-links">
+    <a href="https://github.com/kaganyalcincakir" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/yalçın-kağan-çakir-0799793b6" target="_blank">LinkedIn</a>
+    <a href="https://www.instagram.com/ykagancakrr" target="_blank">Instagram</a>
+</div>
+        <p class="copyright">© 2026 Kağan. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <div class="project-modal" id="project-modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeProject()">×</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-tech"></p>
+        </div>
+    </div>
+
+    <button class="top-btn" id="top-btn" onclick="goTop()">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
